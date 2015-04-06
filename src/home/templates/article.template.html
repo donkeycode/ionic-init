@@ -1,0 +1,35 @@
+<ion-view view-title="Article">
+    <ion-header-bar class="bar tabs tabs2 bar-subheader bar-white" no-tap-scroll="true">
+        <ion-scroll
+            direction="x"
+            scrollbar-x="false"
+            scrollbar-y="false"
+            delegate-handle="tab_header"
+            class="scroll-view ionic-scroll tabs-header"
+            dc-common-tabs-header>
+                <a class="tab-item active" ng-click="goToSlide(0)">Details</a>
+                <a class="tab-item" ng-click="goToSlide(1);">Sample</a>
+        </ion-scroll>
+    </ion-header-bar>
+
+    <ion-slide-box show-pager="false" on-slide-changed="slideChanged($index)">
+        <ion-slide>
+            <ion-content>
+                First slide
+
+                <button class="button button-full button-royal"
+                    dc-common-confirm-click="Are you sure ?"
+                    confirmed-click="doIt()"
+                    confirm-click-title="Title of alert">
+                    Confirmed click
+                </button>
+            </ion-content>
+        </ion-slide>
+        <ion-slide>
+            <ion-content>
+                Second slide
+            </ion-content>
+        </ion-slide>
+    </ion-slide-box>
+</ion-view>
+

@@ -1,0 +1,6 @@
+{
+    "news": {
+        "api": "./mocks/news.json",
+        "cache": 15
+    }
+}

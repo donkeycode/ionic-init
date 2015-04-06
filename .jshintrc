@@ -1,0 +1,31 @@
+{
+  "jquery": false,
+  "node": true,
+  "browser": true,
+  "esnext": false,
+  "es3": false,
+  "bitwise": true,
+  "curly": true,
+  "eqeqeq": true,
+  "eqnull": true,
+  "immed": true,
+  "latedef": true,
+  "newcap": true,
+  "noarg": true,
+  "noempty": true,
+  "nonew": true,
+  "undef": true,
+  "boss": true,
+  "expr": true,
+  "unused": true,
+  "strict": false,
+  "indent": 4,
+  "globals": {
+    "angular": false,
+    "require": false,
+    "jQuery": false,
+    "cordova":false,
+    "StatusBar":false,
+    "ionic": false
+  }
+}

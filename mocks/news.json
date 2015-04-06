@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "creationDate": 1415884208000,
+        "body": "Lorem ipsum dolor sit et amet"
+    },
+    {
+        "id": 2,
+        "creationDate": 1415884208000,
+        "body": "Lorem ipsum dolor sit et amet"
+    },
+    {
+        "id": 3,
+        "creationDate": 1415884208000,
+        "body": "Lorem ipsum dolor sit et amet"
+    }
+]

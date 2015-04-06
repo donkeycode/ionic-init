@@ -1,0 +1,17 @@
+{
+  "name": "ionic-init",
+  "app_id": "",
+  "gulpStartupTasks": [
+    "dev"
+  ],
+  "watchPatterns": [
+    "www/**/*"
+  ],
+  "browsers": [
+    {
+      "platform": "android",
+      "browser": "crosswalk",
+      "version": "11.40.277.1"
+    }
+  ]
+}

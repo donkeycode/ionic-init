@@ -1,0 +1,22 @@
+{
+    "en": {
+        "mobile": {
+            "global": {
+                "search": {
+                    "cancel": "Cancel",
+                    "placeholder": "Search"
+                }
+            }
+        }
+    },
+    "fr": {
+        "mobile": {
+            "global": {
+                "search": {
+                    "cancel": "Annuler",
+                    "placeholder": "Rechercher"
+                }
+            }
+        }
+    }
+}

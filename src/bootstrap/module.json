@@ -1,0 +1,12 @@
+{
+    "requires": [
+        "ionic",
+        "angularMoment",
+        "angular-data.DSCacheFactory",
+        "pascalprecht.translate",
+        "ngCordova",
+        "truncate",
+        "dc.common",
+        "dc.home"
+    ]
+}

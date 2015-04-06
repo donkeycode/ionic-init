@@ -1,0 +1,71 @@
+/**
+ * Tabs
+ * --------------------------------------------------
+ * A navigation bar with any number of tab items supported.
+ */
+
+.slider {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    margin-top: -1px;
+    width: auto;
+    height: auto;
+}
+
+
+.bar.tabs{
+
+    display: inline;
+    overflow: visible;
+    white-space: nowrap;
+    border: 0;
+    border-bottom: 1px solid $button-light-border;
+    padding: 0;
+    @include transition-transform(0.3s);
+
+    .tab-item {
+        display: inline-block;
+        overflow: visible;
+        padding:0 10px;
+        opacity: 1;
+        font-family: $font-family-sans-serif;
+    }
+
+    .tab-item.active{
+        color: $tab-active-color;
+        border-bottom: 1px solid $tab-active-color;
+    }
+
+
+    .scroll {
+        @include display-flex();
+        justify-content: space-between;
+
+        .tab-item{
+            moz-flex: 0 0 30%;
+            -ms-flex: 0 0 30%;
+            -webkit-flex: 0 0 30%;
+            flex: 0 0 30%;
+            max-width: 30%;
+            margin: 0;
+            overflow: hidden;
+        }
+    }
+
+}
+
+.bar.tabs.tabs2 {
+    .scroll {
+        .tab-item {
+            moz-flex: 0 0 50%;
+            -ms-flex: 0 0 50%;
+            -webkit-flex: 0 0 50%;
+            flex: 0 0 50%;
+            max-width: 50%;
+        }
+    }
+}

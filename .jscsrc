@@ -1,0 +1,63 @@
+{
+    "disallowAnonymousFunctions": true,
+    "disallowDanglingUnderscores": true,
+    "disallowEmptyBlocks": true,
+    "disallowFunctionDeclarations": true,
+    "disallowImplicitTypeConversion": ["binary", "numeric", "string"],
+    "disallowKeywordsOnNewLine": ["catch", "else"],
+    "disallowKeywords": ["with"],
+    "disallowMixedSpacesAndTabs": true,
+    "disallowMultipleLineBreaks": true,
+    "disallowMultipleLineStrings": true,
+    "disallowMultipleVarDecl": true,
+    "disallowNewlineBeforeBlockStatements": true,
+
+    // every operator but the comma (see https://github.com/jscs-dev/node-jscs/issues/845)
+    "disallowOperatorBeforeLineBreak": ["=", "+=", "-=", "*=", "/=", "%=", "<<=", ">>=", ">>>=", "&=", "|=", "^=", "+", "-", "*", "/", "%", "<<", ">>", ">>>", "&", "|", "^", "&&", "||", "===", "==", ">=", "<=", "<", ">", "!=", "!=="],
+
+    "excludeFiles": [
+        "bower_components/**/*",
+        "node_modules/**/*",
+        "src.old/**/*"
+    ],
+
+    // all keywords but "case", "catch", "else", "void", "return" and "function"
+    "requirePaddingNewlinesBeforeKeywords": ["do", "for", "if", "switch", "try", "while", "with", "typeof"],
+
+    "requireParenthesesAroundIIFE": true,
+    "requireSpaceAfterBinaryOperators": true,
+
+    // all keywords but function
+    "requireSpaceAfterKeywords": ["do", "for", "if", "switch", "case", "try", "catch", "void", "while", "with", "return", "typeof"],
+
+    // "requireSpaceAfterLineComment": true,
+    "requireSpaceBeforeBinaryOperators": true,
+    "requireSpaceBeforeBlockStatements": true,
+
+    // all keywords but "typeof", "void" and "function"
+    "requireSpaceBeforeKeywords": ["do", "for", "if", "switch", "case", "try", "catch", "while", "with", "return"],
+
+    "requireSpaceBeforeObjectValues": true,
+    "requireSpaceBetweenArguments": true,
+    "requireSpacesInAnonymousFunctionExpression": {
+        "beforeOpeningCurlyBrace": true
+    },
+    "requireSpacesInConditionalExpression": true,
+    "requireSpacesInFunctionDeclaration": {
+        "beforeOpeningCurlyBrace": true
+    },
+    "requireSpacesInFunctionExpression": {
+        "beforeOpeningCurlyBrace": true
+    },
+    "requireSpacesInFunction": {
+        "beforeOpeningCurlyBrace": true
+    },
+    "requireSpacesInNamedFunctionExpression": {
+        "beforeOpeningCurlyBrace": true
+    },
+    "requireSpacesInsideObjectBrackets": "allButNested",
+    "validateIndentation": 4,
+    "validateLineBreaks": "LF",
+    "validateParameterSeparator": ", "
+    // "validateQuoteMarks": "'"
+}

@@ -1,0 +1,6 @@
+{
+    "isDevMode": "true",
+    "lang": {
+        "api": "./mocks/lang.json"
+    }
+}
