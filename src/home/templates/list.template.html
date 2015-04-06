@@ -1,12 +1,12 @@
 <ion-view view-title="Home">
-    <dc-common-search-bar ng-model="search" search="onSearchChanged(term)"></dc-common-search-bar>
-    <ion-content class="has-header-shrink" scroll-event-interval="5" dc-common-header-shrink dc-common-blur-scroll>
+    <dc-tools-search-bar ng-model="search" search="onSearchChanged(term)"></dc-tools-search-bar>
+    <ion-content class="has-header-shrink" scroll-event-interval="5" dc-tools-header-shrink dc-tools-blur-scroll>
         <ion-list class="ios7-list">
             <ion-item ng-class="{ 'first-child': $index === 0 }" class="item-white item-text-wrap item item-complex" ng-repeat="article in news track by article.id">
                 <a ui-sref="dc.article({ id: article.id    })" class="item-content">
                     <h2 bindonce bo-text="article.created_at | dcCommonFormatDate"></h2>
 
-                    <p ng-bind-html="article.body | dcCommonStriptags | characters:90:false | dcCommonHighlight:search"></p>
+                    <p ng-bind-html="article.body | dcToolsStriptags | characters:90:false | dcToolsHighlight:search"></p>
                 </a>
             </ion-item>
         </ion-list>

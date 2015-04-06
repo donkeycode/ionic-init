@@ -1,4 +1,4 @@
-function runApp($ionicPlatform, $log) {
+function runApp($ionicPlatform, $log, dcToolsPushwoosh) {
     $ionicPlatform.ready(function ionicReady() {
         // Hide the accessory bar by default (remove this to show the accessory bar above the keyboard
         // for form inputs)
@@ -12,7 +12,7 @@ function runApp($ionicPlatform, $log) {
         }
 
         if (window.cordova && window.plugins.pushNotification) {
-            PushWooshService.registerListener();
+            dcToolsPushwoosh.registerListener();
         }
 
         if (window.cordova) {

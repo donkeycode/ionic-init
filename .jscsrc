@@ -17,8 +17,7 @@
 
     "excludeFiles": [
         "bower_components/**/*",
-        "node_modules/**/*",
-        "src.old/**/*"
+        "node_modules/**/*"
     ],
 
     // all keywords but "case", "catch", "else", "void", "return" and "function"

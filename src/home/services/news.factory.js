@@ -1,4 +1,4 @@
-function (dcHomeConfig, dcCommonOnline, $http, $q, DSCacheFactory, $log, moment) {
+function (dcHomeConfig, dcToolsOnline, $http, $q, DSCacheFactory, $log, moment) {
     return {
         query: function query(forceReload) {
             var def = $q.defer();
@@ -7,7 +7,7 @@ function (dcHomeConfig, dcCommonOnline, $http, $q, DSCacheFactory, $log, moment)
 
             if (cache.get('news') && !forceReload) {
                 // Not online or cache not expired
-                if (!dcCommonOnline.isOnline() || moment().diff(cache.info('news').created, 'minutes') < dcHomeConfig.news.cache) {
+                if (!dcToolsOnline.isOnline() || moment().diff(cache.info('news').created, 'minutes') < dcHomeConfig.news.cache) {
                     def.resolve(cache.get('news'));
 
                     return def.promise;

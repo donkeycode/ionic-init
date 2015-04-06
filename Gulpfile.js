@@ -145,7 +145,7 @@ gulp.task('ng-index', [clean('*'), 'bower', 'ng-styles', 'ng-scripts'], function
         .pipe(plumber())
         .pipe(ngIndex({
             main: 'dc.bootstrap',
-            baseTemplate: __dirname + '/structure/layout.template.html'
+            baseTemplate: __dirname + '/bower_components/donkeycode-ionic-tools/structure/layout.template.html'
         }))
         .pipe(gulp.dest('www/'));
 });
@@ -193,6 +193,5 @@ gulp.task('dev', ['build', 'serve'], function() {
     gulp.watch('src/**/*.scss', ['ng-styles']);
     gulp.watch('src/**/*.{html,js,json}', ['ng-scripts', reload]);
     gulp.watch('src/**/*.{png,jpg,jpeg,gif}', ['images']);
-    gulp.watch('server/**/*.{js,json}', [reload]);
 });
 

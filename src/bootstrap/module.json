@@ -6,6 +6,7 @@
         "pascalprecht.translate",
         "ngCordova",
         "truncate",
+        "dc.tools",
         "dc.common",
         "dc.home"
     ]
