@@ -3,7 +3,8 @@ This project is a tool to quickly start one [ionicframework](http://ionicframewo
 # Quick start
 
 1. Clone / fork this repo
-2. Install deps
+2. Change bundle name in config.xml & ionic.project
+3. Install deps
 
 ````
 sudo npm install -g ionic cordova bower gulp
@@ -14,7 +15,7 @@ ionic browser add crosswalk
 ionic resources
 ````
 
-3. Install your cordova plugins
+4. Install your cordova plugins
 
 I use frequently :
 
