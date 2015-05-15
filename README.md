@@ -9,6 +9,7 @@ This project is a tool to quickly start one [ionicframework](http://ionicframewo
 ````
 sudo npm install -g ionic cordova bower gulp
 npm install && bower install
+gulp build
 cordova platform add android
 cordova platform add ios
 ionic browser add crosswalk
