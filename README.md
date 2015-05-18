@@ -20,6 +20,12 @@ ionic resources
 
 I use frequently :
 
+### Keyboard
+
+``````
+cordova plugin add com.ionic.keyboard
+``````
+
 ### DatePicker
 
 To manage android date pickers with french format
