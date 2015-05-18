@@ -1,4 +1,4 @@
-function runApp($ionicPlatform, $log, dcToolsPushwoosh) {
+function runApp($ionicPlatform, $log, dcToolsPushwoosh, $timeout) {
     $ionicPlatform.ready(function ionicReady() {
         // Hide the accessory bar by default (remove this to show the accessory bar above the keyboard
         // for form inputs)
