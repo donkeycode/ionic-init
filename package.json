@@ -41,7 +41,7 @@
     "lunr": "^0.5.6",
     "minimist": "^1.1.0",
     "mkdirp": "^0.5.0",
-    "ng-build": "0.1.10",
+    "ng-build": "https://github.com/izeau/ng-build.git#master",
     "ng-midway-tester": "^2.0.5",
     "pwuid": "^1.0.2",
     "q": "^1.1.1",

@@ -113,11 +113,14 @@ gulp.task('ng-lint', ['ng-modules', 'ng-blocks', 'ng-providers'], function() {
         .pipe(ngLint.reporter());
 });
 
-gulp.task('ng-styles', [clean('css')], function() {
+gulp.task('ng-styles', [clean('css')], function(done) {
     return gulp
         .src('src/bootstrap/module.scss')
         .pipe(plumber())
         .pipe(ngStyle())
+        .on('error', function (error) {
+            done(error);
+        })
         .pipe(rename({ basename: 'ionic.app', extname: '.css' }))
         .pipe(gulp.dest('www/css/'))
         .pipe(reload({ stream: true }));
