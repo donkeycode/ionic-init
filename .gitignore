@@ -6,3 +6,8 @@ bower_components/
 www/
 platforms/*/platform_www
 platforms/*/www
+
+# Plugins and platforms - this stuff should be handled automatically
+plugins/*
+platforms/*
+.idea
