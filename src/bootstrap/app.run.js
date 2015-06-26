@@ -16,7 +16,7 @@ function runApp($ionicPlatform, $log, dcToolsPushwoosh, $timeout) {
         }
 
         if (window.cordova) {
-            $timeout(function hideSlashScreen() {
+            $timeout(function hideSplashScreen() {
                 window.navigator.splashscreen.hide();
             }, 100);
         }
