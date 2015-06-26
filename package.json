@@ -54,5 +54,12 @@
     "vinyl-source-stream": "^1.0.0",
     "winston": "^0.8.3",
     "wiredep": "^2.2.2"
-  }
+  },
+  "cordovaPlugins": [
+    "org.apache.cordova.network-information",
+    "com.ionic.keyboard",
+    "org.apache.cordova.console",
+    "org.apache.cordova.device",
+    "org.apache.cordova.inappbrowser"
+  ]
 }
