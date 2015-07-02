@@ -99,6 +99,7 @@ gulp.task('ng-scripts', [clean('js'), 'ng-modules', 'ng-templates', 'ng-blocks',
         .pipe(cache('scripts'))
         .pipe(ngWire())
         .pipe(ngWrap())
+        .pipe(gulp.dest('www/js/'))
         .pipe(ngAnnotate())
         .pipe(jscs())
         .pipe(remember('scripts'))
