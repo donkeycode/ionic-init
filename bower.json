@@ -2,7 +2,7 @@
   "name": "ionic-init",
   "version": "0.0.1",
   "dependencies": {
-    "ionic": "driftyco/ionic-bower#1.0.0",
+    "ionic": "driftyco/ionic-bower#1.0.1",
     "angular-translate": "~2.5.0",
     "ngCordova": "~0.1.14-alpha",
     "lodash": "~3.2.0",
