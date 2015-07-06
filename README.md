@@ -23,7 +23,7 @@ I use frequently :
 ### Keyboard
 
 ``````
-cordova plugin add com.ionic.keyboard
+ionic plugin add com.ionic.keyboard
 ``````
 
 ### DatePicker
@@ -31,37 +31,37 @@ cordova plugin add com.ionic.keyboard
 To manage android date pickers with french format
 
 ``````
-cordova plugin add https://github.com/VitaliiBlagodir/cordova-plugin-datepicker
+ionic plugin add https://github.com/VitaliiBlagodir/cordova-plugin-datepicker
 ``````
 
 ### Pushwoosh
 
 ``````
-cordova plugin add com.pushwoosh.plugins.pushwoosh
+ionic plugin add com.pushwoosh.plugins.pushwoosh
 ``````
 
 ### Inappbrowser
 
 ``````
-cordova plugin add org.apache.cordova.inappbrowser
+ionic plugin add org.apache.cordova.inappbrowser
 ``````
 
 ### Network Information
 
 ``````
-cordova plugin add org.apache.cordova.network-information
+ionic plugin add org.apache.cordova.network-information
 ``````
 
 ### Splashscreen
 
 ``````
-cordova plugin add org.apache.cordova.splashscreen
+ionic plugin add org.apache.cordova.splashscreen
 ``````
 
 ### StatusBar
 
 ``````
-cordova plugin add org.apache.cordova.statusbar
+ionic plugin add org.apache.cordova.statusbar
 ``````
 
 4. Start dev mode
