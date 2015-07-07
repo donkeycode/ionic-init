@@ -88,7 +88,7 @@ gulp.task('ng-providers', function() {
         ])
         .pipe(plumber())
         .pipe(cache('providers'))
-        .pipe(ngProvider())
+        .pipe(ngProvider(require('./config/config@'+process.env.ENV+'.constant.json')))
         .pipe(ngStore.register('providers'))
         .pipe(remember('providers'));
 });
