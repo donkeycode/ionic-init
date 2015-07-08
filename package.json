@@ -56,6 +56,7 @@
     "wiredep": "^2.2.2"
   },
   "cordovaPlugins": [
+    "cordova-plugin-whitelist",
     "com.ionic.keyboard",
     "org.apache.cordova.console",
     "org.apache.cordova.inappbrowser",
