@@ -26,6 +26,12 @@ I use frequently :
 ionic plugin add com.ionic.keyboard
 ``````
 
+### Whitelist
+
+`````
+ionic plugin add cordova-plugin-whitelist
+`````
+
 ### DatePicker
 
 To manage android date pickers with french format
