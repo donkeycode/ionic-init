@@ -59,7 +59,8 @@
     "com.ionic.keyboard",
     "org.apache.cordova.console",
     "org.apache.cordova.inappbrowser",
-    "org.apache.cordova.device"
+    "org.apache.cordova.device",
+    "org.apache.cordova.splashscreen"
   ],
   "cordovaPlatforms": [
     "ios"
