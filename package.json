@@ -20,7 +20,7 @@
     "gulp-connect": "^2.2.0",
     "gulp-filter": "^1.0.2",
     "gulp-htmlclean": "^2.2.3",
-    "gulp-imagemin": "^1.2.1",
+    "gulp-imagemin": "^3.0.0",
     "gulp-jscs": "^1.4.0",
     "gulp-jshint": "^1.9.0",
     "gulp-karma": "0.0.4",
