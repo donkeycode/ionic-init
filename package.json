@@ -53,7 +53,7 @@
     "type-is": "^1.6.1",
     "vinyl-source-stream": "^1.0.0",
     "winston": "^0.8.3",
-    "wiredep": "^2.2.2"
+    "wiredep": "^3.0.1"
   },
   "cordovaPlugins": [
     "cordova-plugin-whitelist",
