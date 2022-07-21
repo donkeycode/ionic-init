@@ -1,0 +1,47 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - ng-build > node-sass > mocha > debug:
+        patched: '2022-07-21T00:54:28.191Z'
+  'npm:hawk:20160119':
+    - ng-build > node-sass > pangyp > request > hawk:
+        patched: '2022-07-21T00:54:28.191Z'
+  'npm:http-signature:20150122':
+    - ng-build > node-sass > pangyp > request > http-signature:
+        patched: '2022-07-21T00:54:28.191Z'
+  'npm:minimatch:20160620':
+    - ng-build > node-sass > pangyp > minimatch:
+        patched: '2022-07-21T00:54:28.191Z'
+    - ng-build > node-sass > sass-graph > glob > minimatch:
+        patched: '2022-07-21T00:54:28.191Z'
+    - ng-build > gulp > vinyl-fs > glob-stream > minimatch:
+        patched: '2022-07-21T00:54:28.191Z'
+    - ng-build > node-sass > pangyp > glob > minimatch:
+        patched: '2022-07-21T00:54:28.191Z'
+    - ng-build > gulp > vinyl-fs > glob-stream > glob > minimatch:
+        patched: '2022-07-21T00:54:28.191Z'
+    - ng-build > node-sass > gaze > globule > minimatch:
+        patched: '2022-07-21T00:54:28.191Z'
+    - ng-build > node-sass > gaze > globule > glob > minimatch:
+        patched: '2022-07-21T00:54:28.191Z'
+    - ng-build > gulp > vinyl-fs > glob-watcher > gaze > globule > minimatch:
+        patched: '2022-07-21T00:54:28.191Z'
+    - ng-build > gulp > vinyl-fs > glob-watcher > gaze > globule > glob > minimatch:
+        patched: '2022-07-21T00:54:28.191Z'
+    - ng-build > node-sass > mocha > glob > minimatch:
+        patched: '2022-07-21T00:54:28.191Z'
+  'npm:ms:20170412':
+    - ng-build > node-sass > mocha > debug > ms:
+        patched: '2022-07-21T00:54:28.191Z'
+  'npm:request:20160119':
+    - ng-build > node-sass > pangyp > request:
+        patched: '2022-07-21T00:54:28.191Z'
+  'npm:tar:20151103':
+    - ng-build > node-sass > pangyp > tar:
+        patched: '2022-07-21T00:54:28.191Z'
+  'npm:tunnel-agent:20170305':
+    - ng-build > node-sass > pangyp > request > tunnel-agent:
+        patched: '2022-07-21T00:54:28.191Z'
