@@ -53,7 +53,8 @@
     "type-is": "^1.6.1",
     "vinyl-source-stream": "^1.0.0",
     "winston": "^0.8.3",
-    "wiredep": "^2.2.2"
+    "wiredep": "^2.2.2",
+    "@snyk/protect": "latest"
   },
   "cordovaPlugins": [
     "cordova-plugin-whitelist",
@@ -65,5 +66,10 @@
   ],
   "cordovaPlatforms": [
     "ios"
-  ]
+  ],
+  "scripts": {
+    "prepublish": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
+  },
+  "snyk": true
 }
